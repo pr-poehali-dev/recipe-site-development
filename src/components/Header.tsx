@@ -13,8 +13,15 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-primary">Кулинария</span>
-            <span className="ml-1 text-accent">🍽️</span>
+            <img 
+              src="/swan-logo.svg" 
+              alt="Лебедь кулинария" 
+              className="h-10 w-10 mr-2" 
+            />
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold text-primary">Лебединая</span>
+              <span className="text-sm text-muted-foreground -mt-1">кулинария</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
